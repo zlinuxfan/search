@@ -1,0 +1,51 @@
+.wrapper {
+    padding: 0 0 50px 0;
+}
+
+header {
+    padding: 20px 0;
+}
+
+p.link {
+    font-size: 75%;
+    color: #6c757d;
+}
+.row .embed-responsive {
+    padding: 15px;
+}
+
+.form-search {
+    width: 700px;
+}
+
+.form-inline {
+    display: inherit;
+}
+
+a.nav-link {
+    color: #6c757d;
+}
+
+ul.more {
+    padding-left: 200px;
+}
+
+.heading {
+    padding: 25px;
+}
+
+footer .year {
+    color: #8a8d88;
+    font-size: 70%;
+    margin-top: -15px;
+}
+
+.badge {
+    color: #8a8d88;
+    /*background-color: inherit;*/
+    /*font-weight: inherit;*/
+}
+
+li {
+    list-style-type: none;
+}

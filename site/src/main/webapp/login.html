@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="static/css/bootstrap.css" rel="stylesheet"/>
+    <link href="static/css/bootstrap-theme.css" rel="stylesheet"/>
+    <link href="static/css/font-awesome.css" rel="stylesheet"/>
+    <link href="static/css/app.css" rel="stylesheet"/>
+    <title>Login</title>
+</head>
+<body>
+
+<div class="wrapper container">
+    <header>
+        <form name="search" action="search" method="get" class="form-inline form-search">
+            <div class="input-group">
+                <label class="sr-only" for="searchInput">как найти смысл жизни</label>
+                <input class="form-control" id="searchInput" type="text" name="q"
+                       placeholder="Введите поисковый запрос ...">
+                <div class="input-group-btn">
+                    <button type="submit" class="btn btn-primary">Найти</button>
+                </div>
+            </div>
+        </form>
+    </header>
+</div>
+<br>
+<br>
+
+<form action="/admin" method="post">
+    <input type="login" name="login">
+    <br>
+    <input type="password" name="password">
+    <input type="submit">
+</form>
+</body>
+</html>
